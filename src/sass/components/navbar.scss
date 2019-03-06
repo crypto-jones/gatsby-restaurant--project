@@ -1,4 +1,6 @@
 .nav-wrapper {
+  padding: 0 1.2rem;
+
   @media (min-width: $break-medium) {
     display: flex;
     align-items: center;
@@ -33,6 +35,7 @@
 
   .nav-link {
     display: block;
+    font-size: 1.3rem;
     text-decoration: none;
     padding: 0.5rem 1rem;
     color: $primary-gray;
@@ -63,5 +66,37 @@
       background-color: $primary-white;
       padding: 0.5rem 1rem;
     }
+  }
+}
+
+.icon-wrapper {
+  .icon {
+    font-size: 1.7rem;
+    cursor: pointer;
+    transition: $trans-default;
+
+    &:hover {
+      color: $primary-yellow;
+    }
+  }
+
+  .facebook-icon {
+    color: #3b579d;
+  }
+
+  .twitter-icon {
+    color: #3ab7f0;
+  }
+
+  .instagram-icon {
+    color: #da5f53;
+  }
+
+  display: none;
+
+  @media (min-width: 768px) {
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
   }
 }
