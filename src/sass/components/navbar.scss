@@ -13,7 +13,7 @@
 
   .toggle-icon {
     font-size: 1.75rem;
-    color: yellow;
+    color: $primary-yellow;
     cursor: pointer;
   }
 
@@ -22,4 +22,7 @@
       display: none;
     }
   }
+}
+
+.link-wrapper {
 }
