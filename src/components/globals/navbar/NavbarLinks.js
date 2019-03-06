@@ -33,9 +33,12 @@ class NavbarLinks extends Component {
 
     if (this.props.navbarOpen) {
       toggleNav = 'link-wrapper';
+    } else if (window.innerWidth >= 768) {
+      toggleNav = 'link-wrapper';
     } else {
       toggleNav = 'link-wrapper--disabled';
     }
+
     return (
       <ul className={toggleNav} open={this.props.navbarOpen}>
         {this.state.links.map(link => {

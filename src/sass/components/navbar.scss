@@ -25,6 +25,8 @@
 }
 
 .link-wrapper {
+  transition: $trans-linear;
+
   li {
     list-style-type: none;
   }
@@ -47,6 +49,19 @@
   }
 
   &--disabled {
-    display: none;
+    height: 0px;
+    overflow: hidden;
+    transition: $trans-linear;
+  }
+
+  @media (min-width: $break-medium) {
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+
+    .nav-link:hover {
+      background-color: $primary-white;
+      padding: 0.5rem 1rem;
+    }
   }
 }
