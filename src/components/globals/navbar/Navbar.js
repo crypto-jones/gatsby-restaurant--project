@@ -11,7 +11,9 @@ class Navbar extends Component {
   };
 
   handleNavbar = () => {
-    this.setState({ navbarOpen: !this.state.navbarOpen });
+    this.setState({
+      navbarOpen: !this.state.navbarOpen,
+    });
   };
 
   render() {

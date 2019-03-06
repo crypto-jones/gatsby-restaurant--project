@@ -25,4 +25,28 @@
 }
 
 .link-wrapper {
+  li {
+    list-style-type: none;
+  }
+
+  .nav-link {
+    display: block;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: $primary-gray;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: $trans-default;
+
+    &:hover {
+      background-color: $primary-gray;
+      color: $primary-yellow;
+      padding: 0.5rem 1rem 0.5rem 1.3rem;
+    }
+  }
+
+  &--disabled {
+    display: none;
+  }
 }
