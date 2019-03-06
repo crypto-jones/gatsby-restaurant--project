@@ -1,0 +1,25 @@
+.nav-wrapper {
+  @media (min-width: $break-medium) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.header-wrapper {
+  padding: 0.4rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .toggle-icon {
+    font-size: 1.75rem;
+    color: yellow;
+    cursor: pointer;
+  }
+
+  @media (min-width: $break-medium) {
+    .toggle-icon {
+      display: none;
+    }
+  }
+}
