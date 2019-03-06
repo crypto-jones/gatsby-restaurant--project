@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
-import './layout.css';
+import '../sass/layout.scss';
 
 const Layout = ({ children }) => {
   return <Fragment>{children}</Fragment>;
