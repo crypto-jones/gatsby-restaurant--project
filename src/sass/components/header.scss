@@ -1,0 +1,8 @@
+.index-header {
+  min-height: calc(100vh - 55.78px);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url($home-img) no-repeat fixed center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
