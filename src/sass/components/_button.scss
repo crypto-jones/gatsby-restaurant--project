@@ -1,0 +1,20 @@
+.banner-button {
+  display: block;
+  color: $primary-white;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: 700;
+  border-color: $primary-white;
+  margin: 0 auto;
+  margin-top: 1rem;
+  transition: $trans-default;
+
+  &:hover {
+    background-color: $primary-white;
+    color: $primary-black;
+    cursor: pointer;
+  }
+}
