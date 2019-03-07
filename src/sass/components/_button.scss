@@ -1,20 +1,34 @@
-.banner-button {
+.button {
   display: block;
-  color: $primary-white;
   background-color: transparent;
   padding: 0.5rem 1rem;
   text-transform: uppercase;
   font-size: 1.5rem;
   letter-spacing: 0.5rem;
   font-weight: 700;
-  border-color: $primary-white;
   margin: 0 auto;
   margin-top: 1rem;
   transition: $trans-default;
+  cursor: pointer;
 
-  &:hover {
-    background-color: $primary-white;
+  &__banner {
+    color: $primary-white;
+    border-color: $primary-white;
+
+    &:hover {
+      background-color: $primary-white;
+      color: $primary-black;
+    }
+  }
+
+  &__section {
     color: $primary-black;
-    cursor: pointer;
+    border-color: $primary-black;
+    margin: 2rem auto;
+
+    &:hover {
+      background-color: $primary-black;
+      color: $primary-yellow;
+    }
   }
 }

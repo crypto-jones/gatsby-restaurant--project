@@ -11,7 +11,7 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <HomeHeader>
       <Banner title="eatery" subtitle="55 Main Street — Santa Monica, CA">
-        <button className="banner-button">menu</button>
+        <button className="button button__banner">menu</button>
       </Banner>
     </HomeHeader>
     <QuickInfo />
