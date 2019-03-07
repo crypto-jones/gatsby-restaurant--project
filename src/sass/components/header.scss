@@ -1,8 +1,27 @@
 .index-header {
-  min-height: calc(100vh - 55.78px);
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url($home-img) no-repeat fixed center/cover;
+  min-height: calc(100vh - 48.4px);
+
   display: flex;
   justify-content: center;
   align-items: center;
+
+  &__home {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url($home-img) no-repeat fixed center/cover;
+  }
+
+  &__about {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url($about-img) no-repeat fixed center/cover;
+  }
+
+  &__menu {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url($menu-img) no-repeat fixed center/cover;
+  }
+
+  &__contact {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url($contact-img) no-repeat fixed center/cover;
+  }
 }

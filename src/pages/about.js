@@ -2,11 +2,12 @@ import React from 'react';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import { AboutHeader } from '../components/globals/header/Header';
 
 const AboutPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h3>This is the About page</h3>
+    <AboutHeader />
   </Layout>
 );
 
