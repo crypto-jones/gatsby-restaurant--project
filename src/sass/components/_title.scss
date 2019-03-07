@@ -1,0 +1,23 @@
+.title-wrapper {
+  text-align: center;
+
+  .message {
+    font-family: cursive;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    color: $primary-yellow;
+  }
+
+  .title {
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
+  .underline {
+    width: 5rem;
+    height: 0.2rem;
+    background-color: $primary-yellow;
+    margin: 0.5rem auto;
+  }
+}

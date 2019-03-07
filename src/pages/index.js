@@ -3,6 +3,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { HomeHeader } from '../components/globals/header/Header';
 import Banner from '../components/globals/banner/Banner';
+import QuickInfo from '../components/HomePage/QuickInfo';
 import '../sass/main.scss';
 
 const IndexPage = () => (
@@ -13,6 +14,7 @@ const IndexPage = () => (
         <button className="banner-button">menu</button>
       </Banner>
     </HomeHeader>
+    <QuickInfo />
   </Layout>
 );
 
