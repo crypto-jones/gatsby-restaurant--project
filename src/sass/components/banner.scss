@@ -1,0 +1,19 @@
+.banner-wrapper {
+  margin-bottom: 3rem;
+  text-align: center;
+
+  .title {
+    color: $primary-white;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.75rem;
+  }
+
+  .subtitle {
+    color: $primary-white;
+    letter-spacing: 0.15rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: cursive;
+  }
+}
