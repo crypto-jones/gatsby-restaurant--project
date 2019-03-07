@@ -31,16 +31,16 @@ class NavbarLinks extends Component {
   render() {
     let toggleNav;
 
-    if (this.props.navbarOpen) {
-      toggleNav = 'link-wrapper';
-    } else if (window.innerWidth >= 768) {
-      toggleNav = 'link-wrapper';
-    } else {
-      toggleNav = 'link-wrapper--disabled';
-    }
+    // if (this.props.navbarOpen) {
+    //   toggleNav = 'link-wrapper';
+    // } else if (window.innerWidth >= 768) {
+    //   toggleNav = 'link-wrapper';
+    // } else {
+    //   toggleNav = 'link-wrapper--disabled';
+    // }
 
     return (
-      <ul className={toggleNav} open={this.props.navbarOpen}>
+      <ul className="link-wrapper" open={this.props.navbarOpen}>
         {this.state.links.map(link => {
           return (
             <li key={link.id}>
