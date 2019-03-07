@@ -31,9 +31,16 @@ class NavbarLinks extends Component {
   render() {
     let toggleNav;
 
+    const clientWidth =
+      typeof window !== `undefined`
+        ? window.innerWidth ||
+          document.documentElement.clientWidth ||
+          document.body.clientWidth
+        : 400;
+
     if (this.props.navbarOpen) {
       toggleNav = 'link-wrapper';
-    } else if (window.innerWidth >= 768) {
+    } else if (clientWidth >= 768) {
       toggleNav = 'link-wrapper';
     } else {
       toggleNav = 'link-wrapper--disabled';
