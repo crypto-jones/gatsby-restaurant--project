@@ -16,7 +16,7 @@ class Footer extends Component {
         path: `http://www.twitter.com`,
       },
       {
-        id: 1,
+        id: 3,
         icon: <FaInstagram className="icon instagram-icon" />,
         path: `http://www.instagram.com`,
       },
@@ -32,7 +32,7 @@ class Footer extends Component {
             return (
               <a
                 href={item.path}
-                key={item.key}
+                key={item.id}
                 target="_blank"
                 rel="noopener noref"
               >
