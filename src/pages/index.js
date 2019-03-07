@@ -5,6 +5,7 @@ import { HomeHeader } from '../components/globals/header/Header';
 import Banner from '../components/globals/banner/Banner';
 import QuickInfo from '../components/HomePage/QuickInfo';
 import Gallery from '../components/HomePage/Gallery';
+import Menu from '../components/HomePage/Menu';
 import '../sass/main.scss';
 
 const IndexPage = () => (
@@ -17,6 +18,7 @@ const IndexPage = () => (
     </HomeHeader>
     <QuickInfo />
     <Gallery />
+    <Menu />
   </Layout>
 );
 
